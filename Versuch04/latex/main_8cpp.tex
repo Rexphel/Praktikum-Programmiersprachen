@@ -1,0 +1,67 @@
+\doxysection{src/main.cpp File Reference}
+\hypertarget{main_8cpp}{}\label{main_8cpp}\index{src/main.cpp@{src/main.cpp}}
+{\ttfamily \#include "{}Vektor.\+h"{}}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{main_8cpp_a36400dc71aca219b3db3dad6f2c77962}{calc\+Distance}} (const \mbox{\hyperlink{classVektor}{Vektor}} v\+Earth\+Surface, const \mbox{\hyperlink{classVektor}{Vektor}} v\+Human, double dstep\+Size\+Rad)
+\begin{DoxyCompactList}\small\item\em Calculates the Distance, a POV can view on a Sphere. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{main_8cpp_abd19ae7e1a5c97afed7636d7a5d1e117}{calc\+Step\+Size}} (double \texorpdfstring{$\ast$}{*}dstep\+Size)
+\begin{DoxyCompactList}\small\item\em Calculates the stepsize for the next Iteration. Is used if no dstep\+Size is not given if Direction is switched add one Precision level. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em Main function. Runs all Tasks for this Experiment. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{main_8cpp_a36400dc71aca219b3db3dad6f2c77962}\label{main_8cpp_a36400dc71aca219b3db3dad6f2c77962} 
+\index{main.cpp@{main.cpp}!calcDistance@{calcDistance}}
+\index{calcDistance@{calcDistance}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{calcDistance()}{calcDistance()}}
+{\footnotesize\ttfamily int calc\+Distance (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classVektor}{Vektor}}}]{v\+Earth\+Surface,  }\item[{const \mbox{\hyperlink{classVektor}{Vektor}}}]{v\+Human,  }\item[{double}]{dstep\+Size\+Rad }\end{DoxyParamCaption})}
+
+
+
+Calculates the Distance, a POV can view on a Sphere. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em v\+Earth\+Surface} & \doxylink{classVektor}{Vektor} from origin to Earths Surface. \\
+\hline
+{\em v\+Human} & \doxylink{classVektor}{Vektor} from origin to POV of the Observer. \\
+\hline
+{\em dstep\+Size\+Rad} & Optional\+: Stepsize for the Calculation. Common\+: 0.\+00000001. If not given\+: automatic Calculation \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Error Codes\+: 0 == All good; 1 == Error 
+\end{DoxyReturn}
+\Hypertarget{main_8cpp_abd19ae7e1a5c97afed7636d7a5d1e117}\label{main_8cpp_abd19ae7e1a5c97afed7636d7a5d1e117} 
+\index{main.cpp@{main.cpp}!calcStepSize@{calcStepSize}}
+\index{calcStepSize@{calcStepSize}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{calcStepSize()}{calcStepSize()}}
+{\footnotesize\ttfamily void calc\+Step\+Size (\begin{DoxyParamCaption}\item[{double \texorpdfstring{$\ast$}{*}}]{dstep\+Size }\end{DoxyParamCaption})}
+
+
+
+Calculates the stepsize for the next Iteration. Is used if no dstep\+Size is not given if Direction is switched add one Precision level. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dstep\+Size} & Pointer to the Step Size to be edited. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Main function. Runs all Tasks for this Experiment. 
+
+Tests implemented functions sub, leange, skalarprodukt, winkel of \doxylink{classVektor}{Vektor}. Also Launches calc\+Distance.
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}

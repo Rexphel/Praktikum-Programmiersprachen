@@ -1,0 +1,94 @@
+\doxysection{src/reversi\+KI.cpp File Reference}
+\hypertarget{reversiKI_8cpp}{}\label{reversiKI_8cpp}\index{src/reversiKI.cpp@{src/reversiKI.cpp}}
+{\ttfamily \#include "{}reversi\+KI.\+h"{}}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{reversiKI_8cpp_a8cf3121558de67463e88957becd116d1}{moegliche\+Zuege}} (const int spielfeld\mbox{[}\mbox{\hyperlink{config_8h_a6e8c64412a620a46fbadb6bbf2df47fe}{GROESSE\+\_\+Y}}\mbox{]}\mbox{[}\mbox{\hyperlink{config_8h_a091c112fc29d1116c224f3d4c0fa7455}{GROESSE\+\_\+X}}\mbox{]}, const int aktueller\+Spieler)
+\item 
+void \mbox{\hyperlink{reversiKI_8cpp_a7034afa60f015a8ab6c0b836d316d4a4}{zug\+Ausfuehren}} (int spielfeld\mbox{[}\mbox{\hyperlink{config_8h_a6e8c64412a620a46fbadb6bbf2df47fe}{GROESSE\+\_\+Y}}\mbox{]}\mbox{[}\mbox{\hyperlink{config_8h_a091c112fc29d1116c224f3d4c0fa7455}{GROESSE\+\_\+X}}\mbox{]}, const int aktueller\+Spieler, const int posX, const int posY)
+\begin{DoxyCompactList}\small\item\em Funktion, die einen Zug ausfuehrt. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{reversiKI_8cpp_a0f17ff75622987b979767417e76164a0}{zug\+Gueltig}} (const int spielfeld\mbox{[}\mbox{\hyperlink{config_8h_a6e8c64412a620a46fbadb6bbf2df47fe}{GROESSE\+\_\+Y}}\mbox{]}\mbox{[}\mbox{\hyperlink{config_8h_a091c112fc29d1116c224f3d4c0fa7455}{GROESSE\+\_\+X}}\mbox{]}, const int aktueller\+Spieler, const int posX, const int posY)
+\begin{DoxyCompactList}\small\item\em Ueberprueft fuer zwei Indizes, ob der Zug gueltig ist. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{reversiKI_8cpp_a5e5980177c60019445f26e3e61b50c51}{computer\+Zug}} (int spielfeld\mbox{[}\mbox{\hyperlink{config_8h_a6e8c64412a620a46fbadb6bbf2df47fe}{GROESSE\+\_\+Y}}\mbox{]}\mbox{[}\mbox{\hyperlink{config_8h_a091c112fc29d1116c224f3d4c0fa7455}{GROESSE\+\_\+X}}\mbox{]}, const int aktueller\+Spieler)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Praktikum Informatik 1
+
+Stellt eine KI fuer das Spiel Reversi zur Verfuegung 
+
+\doxysubsection{Function Documentation}
+\Hypertarget{reversiKI_8cpp_a5e5980177c60019445f26e3e61b50c51}\label{reversiKI_8cpp_a5e5980177c60019445f26e3e61b50c51} 
+\index{reversiKI.cpp@{reversiKI.cpp}!computerZug@{computerZug}}
+\index{computerZug@{computerZug}!reversiKI.cpp@{reversiKI.cpp}}
+\doxysubsubsection{\texorpdfstring{computerZug()}{computerZug()}}
+{\footnotesize\ttfamily bool computer\+Zug (\begin{DoxyParamCaption}\item[{int}]{spielfeld\mbox{[}\+GROESSE\+\_\+\+Y\mbox{]}\mbox{[}\+GROESSE\+\_\+\+X\mbox{]},  }\item[{const int}]{aktueller\+Spieler }\end{DoxyParamCaption})}
+
+Eine Funktion, die eine KI fuer das Spiel Reversi zur Verfuegung stellt
+
+
+\begin{DoxyParams}{Parameters}
+{\em spielfeld} & Das aktuelle Spielfeld \\
+\hline
+{\em aktueller\+Spieler} & Der aktuelle Spieler \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True wenn der Zug ausgefuehrt wurde. False wenn kein Zug moeglich ist. 
+\end{DoxyReturn}
+\Hypertarget{reversiKI_8cpp_a8cf3121558de67463e88957becd116d1}\label{reversiKI_8cpp_a8cf3121558de67463e88957becd116d1} 
+\index{reversiKI.cpp@{reversiKI.cpp}!moeglicheZuege@{moeglicheZuege}}
+\index{moeglicheZuege@{moeglicheZuege}!reversiKI.cpp@{reversiKI.cpp}}
+\doxysubsubsection{\texorpdfstring{moeglicheZuege()}{moeglicheZuege()}}
+{\footnotesize\ttfamily int moegliche\+Zuege (\begin{DoxyParamCaption}\item[{const int}]{spielfeld\mbox{[}\+GROESSE\+\_\+\+Y\mbox{]}\mbox{[}\+GROESSE\+\_\+\+X\mbox{]},  }\item[{const int}]{aktueller\+Spieler }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [extern]}}
+
+\Hypertarget{reversiKI_8cpp_a7034afa60f015a8ab6c0b836d316d4a4}\label{reversiKI_8cpp_a7034afa60f015a8ab6c0b836d316d4a4} 
+\index{reversiKI.cpp@{reversiKI.cpp}!zugAusfuehren@{zugAusfuehren}}
+\index{zugAusfuehren@{zugAusfuehren}!reversiKI.cpp@{reversiKI.cpp}}
+\doxysubsubsection{\texorpdfstring{zugAusfuehren()}{zugAusfuehren()}}
+{\footnotesize\ttfamily void zug\+Ausfuehren (\begin{DoxyParamCaption}\item[{int}]{spielfeld\mbox{[}\+GROESSE\+\_\+\+Y\mbox{]}\mbox{[}\+GROESSE\+\_\+\+X\mbox{]},  }\item[{const int}]{aktueller\+Spieler,  }\item[{const int}]{posX,  }\item[{const int}]{posY }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Funktion, die einen Zug ausfuehrt. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em spielfeld} & Das aktuelle Spielfeld \\
+\hline
+{\em aktueller\+Spieler} & Der aktuelle Spieler \\
+\hline
+{\em posX} & Die aktuelle Spalte \\
+\hline
+{\em posY} & Die aktuelle Zeile \\
+\hline
+\end{DoxyParams}
+\Hypertarget{reversiKI_8cpp_a0f17ff75622987b979767417e76164a0}\label{reversiKI_8cpp_a0f17ff75622987b979767417e76164a0} 
+\index{reversiKI.cpp@{reversiKI.cpp}!zugGueltig@{zugGueltig}}
+\index{zugGueltig@{zugGueltig}!reversiKI.cpp@{reversiKI.cpp}}
+\doxysubsubsection{\texorpdfstring{zugGueltig()}{zugGueltig()}}
+{\footnotesize\ttfamily bool zug\+Gueltig (\begin{DoxyParamCaption}\item[{const int}]{spielfeld\mbox{[}\+GROESSE\+\_\+\+Y\mbox{]}\mbox{[}\+GROESSE\+\_\+\+X\mbox{]},  }\item[{const int}]{aktueller\+Spieler,  }\item[{const int}]{posX,  }\item[{const int}]{posY }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [extern]}}
+
+
+
+Ueberprueft fuer zwei Indizes, ob der Zug gueltig ist. 
+
+Ueberprueft, ob auf einem benachbarten Feld ein gegnerischer Stein liegt. Wenn ja, wird diese Richtung solange untersucht, bis ein eigener Stein gefunden wird. Wird vorher der Spielfeldrand erreicht oder ein leeres Feld gefunden, wird false zurueckgegeben, sonst true
+
+
+\begin{DoxyParams}{Parameters}
+{\em spielfeld} & Das aktuelle Spielfeld \\
+\hline
+{\em aktueller\+Spieler} & Der aktuelle Spieler \\
+\hline
+{\em posX} & Zu ueberpruefende Spalte \\
+\hline
+{\em posY} & Zu ueberpruefende Zeile \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true Wenn der Zug gültig ist, sonst false 
+\end{DoxyReturn}

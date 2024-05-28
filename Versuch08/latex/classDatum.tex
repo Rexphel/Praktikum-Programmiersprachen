@@ -1,0 +1,208 @@
+\doxysection{Datum Class Reference}
+\hypertarget{classDatum}{}\label{classDatum}\index{Datum@{Datum}}
+
+
+Klasse für ein \doxylink{classDatum}{Datum}.  
+
+
+
+
+{\ttfamily \#include $<$Datum.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classDatum_ae1880ae165f7a4aef90be6e8cfaa5ff5}{Datum}} ()
+\begin{DoxyCompactList}\small\item\em Standartkonstruktor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classDatum_a8e2f4d6932cea13001329c35930ce80e}{Datum}} (int init\+Tag, int init\+Monat, int init\+Jahr)
+\begin{DoxyCompactList}\small\item\em Konstruktor für ein gegebenes \doxylink{classDatum}{Datum}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classDatum_ac818754b1bf998712938d7062c4ad936}{\texorpdfstring{$\sim$}{\string~}\+Datum}} (void)
+\item 
+void \mbox{\hyperlink{classDatum_a41c676d7d87f3382500ff3b92e81bbe4}{eingabe}} (std\+::istream \&in)
+\begin{DoxyCompactList}\small\item\em Eingabe eines Datums über einen Eingabestream. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDatum_acfcbb5c16efc6a23e7d6941405332bef}{ausgabe}} (std\+::ostream \&out) const
+\begin{DoxyCompactList}\small\item\em Ausgabe eines Datums über einen Ausgabestream. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classDatum}{Datum}} \& \mbox{\hyperlink{classDatum_ae083121165ba9b060bab456f156ef4df}{operator=}} (\mbox{\hyperlink{classDatum}{Datum}} \&d)
+\begin{DoxyCompactList}\small\item\em Zuweisungsoperator. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classDatum_a8e9f8000e2869bacbf1cac80ac2ff7ee}{operator-\/}} (const \mbox{\hyperlink{classDatum}{Datum}} d) const
+\begin{DoxyCompactList}\small\item\em Subtraktionsoperator. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classDatum}{Datum}} \mbox{\hyperlink{classDatum_ab580376d6838d4b3176606b061d7fe74}{operator+}} (const int anzahl\+Tage) const
+\begin{DoxyCompactList}\small\item\em Additionsoperator. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classDatum_a7436715302138ec188825cb7693b8207}{tag}}
+\item 
+int \mbox{\hyperlink{classDatum_a7047b18c19aa1103d9b56dc06eb76018}{monat}}
+\item 
+int \mbox{\hyperlink{classDatum_a2f91cf40901d23e6944d49caaa123a42}{jahr}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static const int \mbox{\hyperlink{classDatum_aa361db6b6f0142699fe5c885b907f048}{tage\+Monat}} \mbox{[}12\mbox{]} = \{ 31,30,31,28,31,30,31,31,30,31,30,31 \}
+\begin{DoxyCompactList}\small\item\em Enthält die Anzahl der Tage pro Monat. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasse für ein \doxylink{classDatum}{Datum}. 
+
+Speichert ein \doxylink{classDatum}{Datum}, bestehend aus Tag, Monat und Jahr. Die Klasse \doxylink{classDatum}{Datum} bietet verschiedene Funktionalitäten/\+Operatoren die zum Ausgeben/\+Bearbeiten/\+Vergleichen von verschiedenen Daten genutzt werden können 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classDatum_ae1880ae165f7a4aef90be6e8cfaa5ff5}\label{classDatum_ae1880ae165f7a4aef90be6e8cfaa5ff5} 
+\index{Datum@{Datum}!Datum@{Datum}}
+\index{Datum@{Datum}!Datum@{Datum}}
+\doxysubsubsection{\texorpdfstring{Datum()}{Datum()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Datum\+::\+Datum (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Standartkonstruktor. 
+
+Initialisiert die Klasse \doxylink{classDatum}{Datum} mit dem heutigen \doxylink{classDatum}{Datum} \Hypertarget{classDatum_a8e2f4d6932cea13001329c35930ce80e}\label{classDatum_a8e2f4d6932cea13001329c35930ce80e} 
+\index{Datum@{Datum}!Datum@{Datum}}
+\index{Datum@{Datum}!Datum@{Datum}}
+\doxysubsubsection{\texorpdfstring{Datum()}{Datum()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Datum\+::\+Datum (\begin{DoxyParamCaption}\item[{int}]{init\+Tag,  }\item[{int}]{init\+Monat,  }\item[{int}]{init\+Jahr }\end{DoxyParamCaption})}
+
+
+
+Konstruktor für ein gegebenes \doxylink{classDatum}{Datum}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & init\+Tag\+: gegebener Tag \\
+\hline
+{\em int} & init\+Monat\+: gegebener Monat \\
+\hline
+{\em int} & init\+Jahr\+: gegebenes Jahr \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classDatum_ac818754b1bf998712938d7062c4ad936}\label{classDatum_ac818754b1bf998712938d7062c4ad936} 
+\index{Datum@{Datum}!````~Datum@{\texorpdfstring{$\sim$}{\string~}Datum}}
+\index{````~Datum@{\texorpdfstring{$\sim$}{\string~}Datum}!Datum@{Datum}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Datum()}{\string~Datum()}}
+{\footnotesize\ttfamily Datum\+::\texorpdfstring{$\sim$}{\string~}\+Datum (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+@\+Brief Destruktor 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classDatum_acfcbb5c16efc6a23e7d6941405332bef}\label{classDatum_acfcbb5c16efc6a23e7d6941405332bef} 
+\index{Datum@{Datum}!ausgabe@{ausgabe}}
+\index{ausgabe@{ausgabe}!Datum@{Datum}}
+\doxysubsubsection{\texorpdfstring{ausgabe()}{ausgabe()}}
+{\footnotesize\ttfamily void Datum\+::ausgabe (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{out }\end{DoxyParamCaption}) const}
+
+
+
+Ausgabe eines Datums über einen Ausgabestream. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em std\+::ostream} & out\+: Ausgabestream zum Ausgeben \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classDatum_a41c676d7d87f3382500ff3b92e81bbe4}\label{classDatum_a41c676d7d87f3382500ff3b92e81bbe4} 
+\index{Datum@{Datum}!eingabe@{eingabe}}
+\index{eingabe@{eingabe}!Datum@{Datum}}
+\doxysubsubsection{\texorpdfstring{eingabe()}{eingabe()}}
+{\footnotesize\ttfamily void Datum\+::eingabe (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{in }\end{DoxyParamCaption})}
+
+
+
+Eingabe eines Datums über einen Eingabestream. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em std\+::istream\&} & in\+: Eingabestream zum Einlesen \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classDatum_ab580376d6838d4b3176606b061d7fe74}\label{classDatum_ab580376d6838d4b3176606b061d7fe74} 
+\index{Datum@{Datum}!operator+@{operator+}}
+\index{operator+@{operator+}!Datum@{Datum}}
+\doxysubsubsection{\texorpdfstring{operator+()}{operator+()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classDatum}{Datum}} Datum\+::operator+ (\begin{DoxyParamCaption}\item[{const int}]{anzahl\+Tage }\end{DoxyParamCaption}) const}
+
+
+
+Additionsoperator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em const} & int\+: anzahl\+Tag Anzahl der Tage, die auf das aktuelle \doxylink{classDatum}{Datum} addiert werden sollen\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\doxylink{classDatum}{Datum}\+: Gibt das modifizierte \doxylink{classDatum}{Datum} zurück 
+\end{DoxyReturn}
+\Hypertarget{classDatum_a8e9f8000e2869bacbf1cac80ac2ff7ee}\label{classDatum_a8e9f8000e2869bacbf1cac80ac2ff7ee} 
+\index{Datum@{Datum}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Datum@{Datum}}
+\doxysubsubsection{\texorpdfstring{operator-\/()}{operator-()}}
+{\footnotesize\ttfamily int Datum\+::operator-\/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classDatum}{Datum}}}]{d }\end{DoxyParamCaption}) const}
+
+
+
+Subtraktionsoperator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Datum\&} & d\+: Argument auf der rechten Seite\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int\+: Gibt die Differenz der beiden Monate in Monaten zurück 
+\end{DoxyReturn}
+\Hypertarget{classDatum_ae083121165ba9b060bab456f156ef4df}\label{classDatum_ae083121165ba9b060bab456f156ef4df} 
+\index{Datum@{Datum}!operator=@{operator=}}
+\index{operator=@{operator=}!Datum@{Datum}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classDatum}{Datum}} \& Datum\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classDatum}{Datum}} \&}]{d }\end{DoxyParamCaption})}
+
+
+
+Zuweisungsoperator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Datum\&} & d\+: Argument auf der rechten Seite, welches der Ausgangspunkt für die Zuweisung ist \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classDatum_a2f91cf40901d23e6944d49caaa123a42}\label{classDatum_a2f91cf40901d23e6944d49caaa123a42} 
+\index{Datum@{Datum}!jahr@{jahr}}
+\index{jahr@{jahr}!Datum@{Datum}}
+\doxysubsubsection{\texorpdfstring{jahr}{jahr}}
+{\footnotesize\ttfamily int Datum\+::jahr\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classDatum_a7047b18c19aa1103d9b56dc06eb76018}\label{classDatum_a7047b18c19aa1103d9b56dc06eb76018} 
+\index{Datum@{Datum}!monat@{monat}}
+\index{monat@{monat}!Datum@{Datum}}
+\doxysubsubsection{\texorpdfstring{monat}{monat}}
+{\footnotesize\ttfamily int Datum\+::monat\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classDatum_a7436715302138ec188825cb7693b8207}\label{classDatum_a7436715302138ec188825cb7693b8207} 
+\index{Datum@{Datum}!tag@{tag}}
+\index{tag@{tag}!Datum@{Datum}}
+\doxysubsubsection{\texorpdfstring{tag}{tag}}
+{\footnotesize\ttfamily int Datum\+::tag\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classDatum_aa361db6b6f0142699fe5c885b907f048}\label{classDatum_aa361db6b6f0142699fe5c885b907f048} 
+\index{Datum@{Datum}!tageMonat@{tageMonat}}
+\index{tageMonat@{tageMonat}!Datum@{Datum}}
+\doxysubsubsection{\texorpdfstring{tageMonat}{tageMonat}}
+{\footnotesize\ttfamily const int Datum\+::tage\+Monat = \{ 31,30,31,28,31,30,31,31,30,31,30,31 \}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Enthält die Anzahl der Tage pro Monat. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{Datum_8h}{Datum.\+h}}\item 
+src/\mbox{\hyperlink{Datum_8cpp}{Datum.\+cpp}}\end{DoxyCompactItemize}

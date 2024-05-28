@@ -1,0 +1,195 @@
+\doxysection{Vektor Class Reference}
+\hypertarget{classVektor}{}\label{classVektor}\index{Vektor@{Vektor}}
+
+
+{\ttfamily \#include $<$Vektor.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classVektor_a744b4980d331af082c08890ff2e4a857}{Vektor}} (double \mbox{\hyperlink{classVektor_a1c07ed51703109315d5b0fe50a3da941}{x}}, double \mbox{\hyperlink{classVektor_aba9f4518bd9acba9348e848e4962da85}{y}}, double \mbox{\hyperlink{classVektor_a9bba6736e9df48f3eb99caa68a270462}{z}})
+\item 
+\mbox{\hyperlink{classVektor_a66e8e932c4e2df23b5a1d4c4764ce9d2}{\texorpdfstring{$\sim$}{\string~}\+Vektor}} ()
+\item 
+void \mbox{\hyperlink{classVektor_aa3c41759f0a472327a8970878234675a}{ausgabe}} () const
+\begin{DoxyCompactList}\small\item\em Function printing the components of the vector. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVektor}{Vektor}} \mbox{\hyperlink{classVektor_a9e095d5d627ad26c7c2d6f227567e731}{sub}} (const \mbox{\hyperlink{classVektor}{Vektor}} \&input) const
+\begin{DoxyCompactList}\small\item\em Funktion zum subtrahieren zweier Vektoren. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVektor}{Vektor}} \mbox{\hyperlink{classVektor_aeafef3c21fdf2ad7edca844826e111bf}{add}} (const \mbox{\hyperlink{classVektor}{Vektor}} \&input) const
+\begin{DoxyCompactList}\small\item\em Funktion zum addieren zweier Vektoren. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classVektor_a7e0b4c5110595bc81c8824e735af99aa}{laenge}} () const
+\begin{DoxyCompactList}\small\item\em Funktion zum berechnen der Länge eines Vektors. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classVektor_a5c2887f0690d9ffd1bba0a16bd8cc477}{skalar\+Prod}} (const \mbox{\hyperlink{classVektor}{Vektor}} \&input) const
+\begin{DoxyCompactList}\small\item\em Funktion zum berechnen des Skalarproduktes zweier Vektoren. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classVektor_a66d1f47d9c7f6d985f39e9f34fb3f0d5}{winkel}} (const \mbox{\hyperlink{classVektor}{Vektor}} \&input) const
+\begin{DoxyCompactList}\small\item\em Funktion zum berechnen des Winkels zwischen zwei Vektoren. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classVektor_a578a23f6efefcd0b038609bdcb9a7f7b}{rotiere\+UmZ}} (const double rad)
+\begin{DoxyCompactList}\small\item\em Funktion zum Rotieren eines Vektors um die x3 Achse. Mit der Entsprechenden Rotationsachse. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{classVektor_a1c07ed51703109315d5b0fe50a3da941}{x}}
+\item 
+double \mbox{\hyperlink{classVektor_aba9f4518bd9acba9348e848e4962da85}{y}}
+\item 
+double \mbox{\hyperlink{classVektor_a9bba6736e9df48f3eb99caa68a270462}{z}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classVektor_a744b4980d331af082c08890ff2e4a857}\label{classVektor_a744b4980d331af082c08890ff2e4a857} 
+\index{Vektor@{Vektor}!Vektor@{Vektor}}
+\index{Vektor@{Vektor}!Vektor@{Vektor}}
+\doxysubsubsection{\texorpdfstring{Vektor()}{Vektor()}}
+{\footnotesize\ttfamily Vektor\+::\+Vektor (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{y,  }\item[{double}]{z }\end{DoxyParamCaption})}
+
+\Hypertarget{classVektor_a66e8e932c4e2df23b5a1d4c4764ce9d2}\label{classVektor_a66e8e932c4e2df23b5a1d4c4764ce9d2} 
+\index{Vektor@{Vektor}!````~Vektor@{\texorpdfstring{$\sim$}{\string~}Vektor}}
+\index{````~Vektor@{\texorpdfstring{$\sim$}{\string~}Vektor}!Vektor@{Vektor}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Vektor()}{\string~Vektor()}}
+{\footnotesize\ttfamily Vektor\+::\texorpdfstring{$\sim$}{\string~}\+Vektor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classVektor_aeafef3c21fdf2ad7edca844826e111bf}\label{classVektor_aeafef3c21fdf2ad7edca844826e111bf} 
+\index{Vektor@{Vektor}!add@{add}}
+\index{add@{add}!Vektor@{Vektor}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVektor}{Vektor}} Vektor\+::add (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classVektor}{Vektor}} \&}]{input }\end{DoxyParamCaption}) const}
+
+
+
+Funktion zum addieren zweier Vektoren. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & \doxylink{classVektor}{Vektor} welcher addiert werden soll. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Addierter \doxylink{classVektor}{Vektor} (neues Objekt). 
+\end{DoxyReturn}
+\Hypertarget{classVektor_aa3c41759f0a472327a8970878234675a}\label{classVektor_aa3c41759f0a472327a8970878234675a} 
+\index{Vektor@{Vektor}!ausgabe@{ausgabe}}
+\index{ausgabe@{ausgabe}!Vektor@{Vektor}}
+\doxysubsubsection{\texorpdfstring{ausgabe()}{ausgabe()}}
+{\footnotesize\ttfamily void Vektor\+::ausgabe (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Function printing the components of the vector. 
+
+\Hypertarget{classVektor_a7e0b4c5110595bc81c8824e735af99aa}\label{classVektor_a7e0b4c5110595bc81c8824e735af99aa} 
+\index{Vektor@{Vektor}!laenge@{laenge}}
+\index{laenge@{laenge}!Vektor@{Vektor}}
+\doxysubsubsection{\texorpdfstring{laenge()}{laenge()}}
+{\footnotesize\ttfamily double Vektor\+::laenge (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Funktion zum berechnen der Länge eines Vektors. 
+
+\begin{DoxyReturn}{Returns}
+Länge des Vektors. 
+\end{DoxyReturn}
+\Hypertarget{classVektor_a578a23f6efefcd0b038609bdcb9a7f7b}\label{classVektor_a578a23f6efefcd0b038609bdcb9a7f7b} 
+\index{Vektor@{Vektor}!rotiereUmZ@{rotiereUmZ}}
+\index{rotiereUmZ@{rotiereUmZ}!Vektor@{Vektor}}
+\doxysubsubsection{\texorpdfstring{rotiereUmZ()}{rotiereUmZ()}}
+{\footnotesize\ttfamily void Vektor\+::rotiere\+UmZ (\begin{DoxyParamCaption}\item[{const double}]{rad }\end{DoxyParamCaption})}
+
+
+
+Funktion zum Rotieren eines Vektors um die x3 Achse. Mit der Entsprechenden Rotationsachse. 
+
+\begin{DoxyVerb}(cos(alpha) -sin(alpha) 0)
+(sin(alpha) cos(alpha)  0)
+(0          0           1)
+\end{DoxyVerb}
+ 
+\begin{DoxyParams}{Parameters}
+{\em rad} & Winkel, um den Rotiert werden soll. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classVektor_a5c2887f0690d9ffd1bba0a16bd8cc477}\label{classVektor_a5c2887f0690d9ffd1bba0a16bd8cc477} 
+\index{Vektor@{Vektor}!skalarProd@{skalarProd}}
+\index{skalarProd@{skalarProd}!Vektor@{Vektor}}
+\doxysubsubsection{\texorpdfstring{skalarProd()}{skalarProd()}}
+{\footnotesize\ttfamily double Vektor\+::skalar\+Prod (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classVektor}{Vektor}} \&}]{input }\end{DoxyParamCaption}) const}
+
+
+
+Funktion zum berechnen des Skalarproduktes zweier Vektoren. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & \doxylink{classVektor}{Vektor} mit dem zusammen das Skalarprodukt berechnet werden soll \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Berechnetes Skalarprodukt. 
+\end{DoxyReturn}
+\Hypertarget{classVektor_a9e095d5d627ad26c7c2d6f227567e731}\label{classVektor_a9e095d5d627ad26c7c2d6f227567e731} 
+\index{Vektor@{Vektor}!sub@{sub}}
+\index{sub@{sub}!Vektor@{Vektor}}
+\doxysubsubsection{\texorpdfstring{sub()}{sub()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVektor}{Vektor}} Vektor\+::sub (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classVektor}{Vektor}} \&}]{input }\end{DoxyParamCaption}) const}
+
+
+
+Funktion zum subtrahieren zweier Vektoren. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & \doxylink{classVektor}{Vektor} welcher subtrahiert werden soll. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Sutrahierter \doxylink{classVektor}{Vektor} (neues Objekt). 
+\end{DoxyReturn}
+\Hypertarget{classVektor_a66d1f47d9c7f6d985f39e9f34fb3f0d5}\label{classVektor_a66d1f47d9c7f6d985f39e9f34fb3f0d5} 
+\index{Vektor@{Vektor}!winkel@{winkel}}
+\index{winkel@{winkel}!Vektor@{Vektor}}
+\doxysubsubsection{\texorpdfstring{winkel()}{winkel()}}
+{\footnotesize\ttfamily double Vektor\+::winkel (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classVektor}{Vektor}} \&}]{input }\end{DoxyParamCaption}) const}
+
+
+
+Funktion zum berechnen des Winkels zwischen zwei Vektoren. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & \doxylink{classVektor}{Vektor} mit dem zusammen der Winkel berechnet werden soll. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Berechneter Winkel 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classVektor_a1c07ed51703109315d5b0fe50a3da941}\label{classVektor_a1c07ed51703109315d5b0fe50a3da941} 
+\index{Vektor@{Vektor}!x@{x}}
+\index{x@{x}!Vektor@{Vektor}}
+\doxysubsubsection{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily double Vektor\+::x\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classVektor_aba9f4518bd9acba9348e848e4962da85}\label{classVektor_aba9f4518bd9acba9348e848e4962da85} 
+\index{Vektor@{Vektor}!y@{y}}
+\index{y@{y}!Vektor@{Vektor}}
+\doxysubsubsection{\texorpdfstring{y}{y}}
+{\footnotesize\ttfamily double Vektor\+::y\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classVektor_a9bba6736e9df48f3eb99caa68a270462}\label{classVektor_a9bba6736e9df48f3eb99caa68a270462} 
+\index{Vektor@{Vektor}!z@{z}}
+\index{z@{z}!Vektor@{Vektor}}
+\doxysubsubsection{\texorpdfstring{z}{z}}
+{\footnotesize\ttfamily double Vektor\+::z\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{Vektor_8h}{Vektor.\+h}}\item 
+src/\mbox{\hyperlink{Vektor_8cpp}{Vektor.\+cpp}}\end{DoxyCompactItemize}

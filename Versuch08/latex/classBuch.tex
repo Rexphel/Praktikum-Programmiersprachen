@@ -1,0 +1,130 @@
+\doxysection{Buch Class Reference}
+\hypertarget{classBuch}{}\label{classBuch}\index{Buch@{Buch}}
+
+
+Klasse f{\ucr}r ein \doxylink{classBuch}{Buch}.  
+
+
+
+
+{\ttfamily \#include $<$Buch.\+h$>$}
+
+Inheritance diagram for Buch\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classBuch}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classBuch_ad84ddd0b7676a481242a777697147351}{Buch}} (std\+::string init\+Tite, std\+::string \mbox{\hyperlink{classBuch_a5ed19f7fe13d2bd4362583f9c968f9e4}{autor}})
+\begin{DoxyCompactList}\small\item\em Konstruktor f{\ucr}r ein gegebenes \doxylink{classBuch}{Buch}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classBuch_a52220dcfe1dbcc17a25a2dcc3899aa28}{\texorpdfstring{$\sim$}{\string~}\+Buch}} (void)
+\item 
+void \mbox{\hyperlink{classBuch_a346e8acd888f5293dc3ec80593443a4d}{ausgabe}} () const override
+\begin{DoxyCompactList}\small\item\em Ausgabefunktion. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classMedium}{Medium}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classMedium_aa8bd867d2e3644022a117433e3321f18}{Medium}} (std\+::string init\+Titel)
+\begin{DoxyCompactList}\small\item\em Konstruktor. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{classMedium_a77264993251b16f49de7cfc2a079eae2}{\texorpdfstring{$\sim$}{\string~}\+Medium}} (void)
+\begin{DoxyCompactList}\small\item\em virtueller Destruktor \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMedium_a750c8b07b7b4e4433b8da9b8e470d730}{ausgabe}} (std\+::ostream \&out)
+\begin{DoxyCompactList}\small\item\em Überladung des Ausgabe operators. \end{DoxyCompactList}\item 
+virtual bool \mbox{\hyperlink{classMedium_a98261c5da2a63906799f298cbbcd66b8}{ausleihen}} (\mbox{\hyperlink{classPerson}{Person}} person, \mbox{\hyperlink{classDatum}{Datum}} ausleihdatum)
+\begin{DoxyCompactList}\small\item\em Ausleihen-\/\+Funktion. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMedium_a243e7659e4c9596061a5d5805ae271c4}{zurueckgeben}} ()
+\begin{DoxyCompactList}\small\item\em Gibt ein \doxylink{classMedium}{Medium} in die B{\ucr}cherei zur{\ucr}ck. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classMedium_a7bc65e286218957af48211f6ace30789}{get\+ID}} ()
+\begin{DoxyCompactList}\small\item\em ID des Mediums. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classMedium_ad2cc4f0e904ac1590924ae4743b96cc0}{get\+Status}} ()
+\begin{DoxyCompactList}\small\item\em Status des Mediums. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{classBuch_a5ed19f7fe13d2bd4362583f9c968f9e4}{autor}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{classMedium}{Medium}}}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \mbox{\hyperlink{classMedium_a5e72a311f06810444cde614ddbc4b31f}{ID}}
+\begin{DoxyCompactList}\small\item\em Eindeutige ID des Mediums. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMedium_ab76783269f8b09141d7b2168b008429d}{titel}}
+\begin{DoxyCompactList}\small\item\em Titel des Mediums. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classMedium_a41d79c1b3b57a54c8b372a8e36f1b5c9}{status}}
+\begin{DoxyCompactList}\small\item\em Status des Mediums (true\+: ausgeliehen, false\+: nicht ausgeliehen) \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classDatum}{Datum}} \mbox{\hyperlink{classMedium_af7a2605566e899641b075f51893948c7}{datum\+Ausgeliehen}}
+\begin{DoxyCompactList}\small\item\em \doxylink{classDatum}{Datum} seit dem das \doxylink{classMedium}{Medium} ausgeliehen ist. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classPerson}{Person}} \mbox{\hyperlink{classMedium_a2dcfa7b252fea996b5cb6551f735f252}{person\+Ausgeliehen}}
+\begin{DoxyCompactList}\small\item\em \doxylink{classPerson}{Person}, die das \doxylink{classMedium}{Medium} ausgeliehen hat. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Attributes inherited from \mbox{\hyperlink{classMedium}{Medium}}}
+\begin{DoxyCompactItemize}
+\item 
+static unsigned int \mbox{\hyperlink{classMedium_ac48d0988284d67e8bdf54b8fab9ebbe8}{current\+ID}} = 1
+\begin{DoxyCompactList}\small\item\em Statische Variable zum Erzeugen der fortlaufenden IDs. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasse f{\ucr}r ein \doxylink{classBuch}{Buch}. 
+
+Speichert ein \doxylink{classBuch}{Buch}, bestehend aus Titel und Autor. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classBuch_ad84ddd0b7676a481242a777697147351}\label{classBuch_ad84ddd0b7676a481242a777697147351} 
+\index{Buch@{Buch}!Buch@{Buch}}
+\index{Buch@{Buch}!Buch@{Buch}}
+\doxysubsubsection{\texorpdfstring{Buch()}{Buch()}}
+{\footnotesize\ttfamily Buch\+::\+Buch (\begin{DoxyParamCaption}\item[{std\+::string}]{init\+Tite,  }\item[{std\+::string}]{autor }\end{DoxyParamCaption})}
+
+
+
+Konstruktor f{\ucr}r ein gegebenes \doxylink{classBuch}{Buch}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & titel\+: gegebener Titel \\
+\hline
+{\em string} & autor\+: gegebener Autor \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classBuch_a52220dcfe1dbcc17a25a2dcc3899aa28}\label{classBuch_a52220dcfe1dbcc17a25a2dcc3899aa28} 
+\index{Buch@{Buch}!````~Buch@{\texorpdfstring{$\sim$}{\string~}Buch}}
+\index{````~Buch@{\texorpdfstring{$\sim$}{\string~}Buch}!Buch@{Buch}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Buch()}{\string~Buch()}}
+{\footnotesize\ttfamily Buch\+::\texorpdfstring{$\sim$}{\string~}\+Buch (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+@\+Brief Destruktor 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classBuch_a346e8acd888f5293dc3ec80593443a4d}\label{classBuch_a346e8acd888f5293dc3ec80593443a4d} 
+\index{Buch@{Buch}!ausgabe@{ausgabe}}
+\index{ausgabe@{ausgabe}!Buch@{Buch}}
+\doxysubsubsection{\texorpdfstring{ausgabe()}{ausgabe()}}
+{\footnotesize\ttfamily void Buch\+::ausgabe (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Ausgabefunktion. 
+
+Funktion gibt alle Informationen eines Mediums auf der Konsole aus 
+
+Implements \mbox{\hyperlink{classMedium_a4ef72a6165d29497d26d0825a0f3b486}{Medium}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classBuch_a5ed19f7fe13d2bd4362583f9c968f9e4}\label{classBuch_a5ed19f7fe13d2bd4362583f9c968f9e4} 
+\index{Buch@{Buch}!autor@{autor}}
+\index{autor@{autor}!Buch@{Buch}}
+\doxysubsubsection{\texorpdfstring{autor}{autor}}
+{\footnotesize\ttfamily std\+::string Buch\+::autor\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{Buch_8h}{Buch.\+h}}\item 
+src/\mbox{\hyperlink{Buch_8cpp}{Buch.\+cpp}}\end{DoxyCompactItemize}

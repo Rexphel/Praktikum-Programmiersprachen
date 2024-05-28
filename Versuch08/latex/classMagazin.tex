@@ -1,0 +1,164 @@
+\doxysection{Magazin Class Reference}
+\hypertarget{classMagazin}{}\label{classMagazin}\index{Magazin@{Magazin}}
+
+
+Klasse f{\ucr}r ein \doxylink{classMagazin}{Magazin}.  
+
+
+
+
+{\ttfamily \#include $<$Magazin.\+h$>$}
+
+Inheritance diagram for Magazin\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classMagazin}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classMagazin_a6397156e7ce7dd671032248794131f23}{Magazin}} (std\+::string init\+Titel, \mbox{\hyperlink{classDatum}{Datum}} init\+Datum\+Ausgabe, std\+::string init\+Sparte)
+\begin{DoxyCompactList}\small\item\em Konstruktor f{\ucr}r ein gegebenes \doxylink{classBuch}{Buch}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classMagazin_a71136fd89750fdd369c9ac3efea1aa16}{\texorpdfstring{$\sim$}{\string~}\+Magazin}} (void)
+\item 
+void \mbox{\hyperlink{classMagazin_abca2107906d4e9918a5b4083ab564ba6}{ausgabe}} () const override
+\begin{DoxyCompactList}\small\item\em Ausgabefunktion. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classMagazin_af64fe3e3431aa4493e1b5d701696a9e1}{ausleihen}} (\mbox{\hyperlink{classPerson}{Person}} person, \mbox{\hyperlink{classDatum}{Datum}} ausleihdatum) override
+\begin{DoxyCompactList}\small\item\em Ausleihen-\/\+Funktion. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classMedium}{Medium}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classMedium_aa8bd867d2e3644022a117433e3321f18}{Medium}} (std\+::string init\+Titel)
+\begin{DoxyCompactList}\small\item\em Konstruktor. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{classMedium_a77264993251b16f49de7cfc2a079eae2}{\texorpdfstring{$\sim$}{\string~}\+Medium}} (void)
+\begin{DoxyCompactList}\small\item\em virtueller Destruktor \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMedium_a750c8b07b7b4e4433b8da9b8e470d730}{ausgabe}} (std\+::ostream \&out)
+\begin{DoxyCompactList}\small\item\em Überladung des Ausgabe operators. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMedium_a243e7659e4c9596061a5d5805ae271c4}{zurueckgeben}} ()
+\begin{DoxyCompactList}\small\item\em Gibt ein \doxylink{classMedium}{Medium} in die B{\ucr}cherei zur{\ucr}ck. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{classMedium_a7bc65e286218957af48211f6ace30789}{get\+ID}} ()
+\begin{DoxyCompactList}\small\item\em ID des Mediums. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classMedium_ad2cc4f0e904ac1590924ae4743b96cc0}{get\+Status}} ()
+\begin{DoxyCompactList}\small\item\em Status des Mediums. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classDatum}{Datum}} \mbox{\hyperlink{classMagazin_afe03518d1396c543aeb102cca36e7087}{Datum\+Ausgabe}}
+\item 
+std\+::string \mbox{\hyperlink{classMagazin_ad7d4f9dc171456711b609ba0859514e5}{Sparte}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{classMedium}{Medium}}}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \mbox{\hyperlink{classMedium_a5e72a311f06810444cde614ddbc4b31f}{ID}}
+\begin{DoxyCompactList}\small\item\em Eindeutige ID des Mediums. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classMedium_ab76783269f8b09141d7b2168b008429d}{titel}}
+\begin{DoxyCompactList}\small\item\em Titel des Mediums. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classMedium_a41d79c1b3b57a54c8b372a8e36f1b5c9}{status}}
+\begin{DoxyCompactList}\small\item\em Status des Mediums (true\+: ausgeliehen, false\+: nicht ausgeliehen) \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classDatum}{Datum}} \mbox{\hyperlink{classMedium_af7a2605566e899641b075f51893948c7}{datum\+Ausgeliehen}}
+\begin{DoxyCompactList}\small\item\em \doxylink{classDatum}{Datum} seit dem das \doxylink{classMedium}{Medium} ausgeliehen ist. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classPerson}{Person}} \mbox{\hyperlink{classMedium_a2dcfa7b252fea996b5cb6551f735f252}{person\+Ausgeliehen}}
+\begin{DoxyCompactList}\small\item\em \doxylink{classPerson}{Person}, die das \doxylink{classMedium}{Medium} ausgeliehen hat. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Attributes inherited from \mbox{\hyperlink{classMedium}{Medium}}}
+\begin{DoxyCompactItemize}
+\item 
+static unsigned int \mbox{\hyperlink{classMedium_ac48d0988284d67e8bdf54b8fab9ebbe8}{current\+ID}} = 1
+\begin{DoxyCompactList}\small\item\em Statische Variable zum Erzeugen der fortlaufenden IDs. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasse f{\ucr}r ein \doxylink{classMagazin}{Magazin}. 
+
+Speichert ein \doxylink{classBuch}{Buch}, bestehend aus Titel, \doxylink{classDatum}{Datum} der Ausgabe und Sparte. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classMagazin_a6397156e7ce7dd671032248794131f23}\label{classMagazin_a6397156e7ce7dd671032248794131f23} 
+\index{Magazin@{Magazin}!Magazin@{Magazin}}
+\index{Magazin@{Magazin}!Magazin@{Magazin}}
+\doxysubsubsection{\texorpdfstring{Magazin()}{Magazin()}}
+{\footnotesize\ttfamily Magazin\+::\+Magazin (\begin{DoxyParamCaption}\item[{std\+::string}]{init\+Titel,  }\item[{\mbox{\hyperlink{classDatum}{Datum}}}]{init\+Datum\+Ausgabe,  }\item[{std\+::string}]{init\+Sparte }\end{DoxyParamCaption})}
+
+
+
+Konstruktor f{\ucr}r ein gegebenes \doxylink{classBuch}{Buch}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & init\+Titel\+: gegebener Titel \\
+\hline
+{\em \doxylink{classDatum}{Datum}} & init\+Datum\+Ausgabe\+: gegebenes \doxylink{classDatum}{Datum} der Ausgabe \\
+\hline
+{\em string} & init\+Sparte\+: gegebene Sparte \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMagazin_a71136fd89750fdd369c9ac3efea1aa16}\label{classMagazin_a71136fd89750fdd369c9ac3efea1aa16} 
+\index{Magazin@{Magazin}!````~Magazin@{\texorpdfstring{$\sim$}{\string~}Magazin}}
+\index{````~Magazin@{\texorpdfstring{$\sim$}{\string~}Magazin}!Magazin@{Magazin}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Magazin()}{\string~Magazin()}}
+{\footnotesize\ttfamily Magazin\+::\texorpdfstring{$\sim$}{\string~}\+Magazin (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+@\+Brief Destruktor 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classMagazin_abca2107906d4e9918a5b4083ab564ba6}\label{classMagazin_abca2107906d4e9918a5b4083ab564ba6} 
+\index{Magazin@{Magazin}!ausgabe@{ausgabe}}
+\index{ausgabe@{ausgabe}!Magazin@{Magazin}}
+\doxysubsubsection{\texorpdfstring{ausgabe()}{ausgabe()}}
+{\footnotesize\ttfamily void Magazin\+::ausgabe (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Ausgabefunktion. 
+
+Funktion gibt alle Informationen eines Magazins auf der Konsole aus 
+
+Implements \mbox{\hyperlink{classMedium_a4ef72a6165d29497d26d0825a0f3b486}{Medium}}.
+
+\Hypertarget{classMagazin_af64fe3e3431aa4493e1b5d701696a9e1}\label{classMagazin_af64fe3e3431aa4493e1b5d701696a9e1} 
+\index{Magazin@{Magazin}!ausleihen@{ausleihen}}
+\index{ausleihen@{ausleihen}!Magazin@{Magazin}}
+\doxysubsubsection{\texorpdfstring{ausleihen()}{ausleihen()}}
+{\footnotesize\ttfamily bool Magazin\+::ausleihen (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classPerson}{Person}}}]{person,  }\item[{\mbox{\hyperlink{classDatum}{Datum}}}]{ausleihdatum }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Ausleihen-\/\+Funktion. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \doxylink{classPerson}{Person}} & person\+: \doxylink{classPerson}{Person} die das \doxylink{classMagazin}{Magazin} ausleihen m{\ucr}chte \\
+\hline
+{\em \doxylink{classDatum}{Datum}} & ausleihdatum\+: \doxylink{classDatum}{Datum} an dem das \doxylink{classMagazin}{Magazin} ausgeliehen wird\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool\+: true, wenn die Ausleihbeschr{\ucr}nkungen erf{\ucr}llt sind und das \doxylink{classMedium}{Medium} ausgeliehen werden kann false, wenn die Ausleihbeschr{\ucr}nkungen nicht erf{\ucr}llt sind und das \doxylink{classMedium}{Medium} nicht ausgeliehen werden kann 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classMedium_a98261c5da2a63906799f298cbbcd66b8}{Medium}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classMagazin_afe03518d1396c543aeb102cca36e7087}\label{classMagazin_afe03518d1396c543aeb102cca36e7087} 
+\index{Magazin@{Magazin}!DatumAusgabe@{DatumAusgabe}}
+\index{DatumAusgabe@{DatumAusgabe}!Magazin@{Magazin}}
+\doxysubsubsection{\texorpdfstring{DatumAusgabe}{DatumAusgabe}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classDatum}{Datum}} Magazin\+::\+Datum\+Ausgabe\hspace{0.3cm}{\ttfamily [private]}}
+
+\Hypertarget{classMagazin_ad7d4f9dc171456711b609ba0859514e5}\label{classMagazin_ad7d4f9dc171456711b609ba0859514e5} 
+\index{Magazin@{Magazin}!Sparte@{Sparte}}
+\index{Sparte@{Sparte}!Magazin@{Magazin}}
+\doxysubsubsection{\texorpdfstring{Sparte}{Sparte}}
+{\footnotesize\ttfamily std\+::string Magazin\+::\+Sparte\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{Magazin_8h}{Magazin.\+h}}\item 
+src/\mbox{\hyperlink{Magazin_8cpp}{Magazin.\+cpp}}\end{DoxyCompactItemize}
