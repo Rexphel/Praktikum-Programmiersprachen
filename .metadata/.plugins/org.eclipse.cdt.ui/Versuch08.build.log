@@ -1,0 +1,15 @@
+20:01:29 **** Incremental Build of configuration Debug for project Versuch08 ****
+make all 
+Building file: ../src/Buecherei.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Buecherei.d" -MT"src/Buecherei.o" -o "src/Buecherei.o" "../src/Buecherei.cpp"
+Finished building: ../src/Buecherei.cpp
+ 
+Building target: Versuch08
+Invoking: GCC C++ Linker
+g++  -o "Versuch08" ./src/Buch.o ./src/Buecherei.o ./src/DVD.o ./src/Datum.o ./src/Magazin.o ./src/Medium.o ./src/Person.o   
+Finished building target: Versuch08
+ 
+
+20:01:30 Build Finished. 0 errors, 0 warnings. (took 476ms)
+

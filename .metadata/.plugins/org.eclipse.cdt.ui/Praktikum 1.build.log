@@ -1,0 +1,13 @@
+11:19:44 **** Incremental Build of configuration Debug for project Praktikum 1 ****
+make all 
+Building target: Praktikum 1
+Invoking: GCC C++ Linker
+g++  -o "Praktikum 1" ./src/Praktikum\ 1.o   
+/usr/bin/ld: /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:67: Praktikum 1] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+11:19:44 Build Failed. 2 errors, 0 warnings. (took 171ms)
+

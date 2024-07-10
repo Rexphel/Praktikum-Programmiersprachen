@@ -1,0 +1,23 @@
+21:06:55 **** Build of configuration Debug for project Versuch02Teil3 ****
+make all 
+Building file: ../src/Versuch02Teil3.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Versuch02Teil3.d" -MT"src/Versuch02Teil3.o" -o "src/Versuch02Teil3.o" "../src/Versuch02Teil3.cpp"
+../src/Versuch02Teil3.cpp: In function ‘std::string unscramble(std::string, char (*)[26])’:
+../src/Versuch02Teil3.cpp:66:24: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   66 |         for (int i=0; i<=WORD.length(); i++){
+      |                       ~^~~~~~~~~~~~~~~
+../src/Versuch02Teil3.cpp: In function ‘std::string scramble(std::string, char (*)[26])’:
+../src/Versuch02Teil3.cpp:77:24: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   77 |         for (int i=0; i<=WORD.length(); i++){
+      |                       ~^~~~~~~~~~~~~~~
+Finished building: ../src/Versuch02Teil3.cpp
+ 
+Building target: Versuch02Teil3
+Invoking: GCC C++ Linker
+g++  -o "Versuch02Teil3" ./src/Versuch02Teil3.o   
+Finished building target: Versuch02Teil3
+ 
+
+21:06:55 Build Finished. 0 errors, 2 warnings. (took 417ms)
+

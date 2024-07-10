@@ -18,8 +18,6 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     ui->graphicsView->setScene(&scene);
     ui->debugInputs->hide();
-    MapIoNrw* mapioNrw = new MapIoNrw();
-    mapio = mapioNrw;
 }
 
 MainWindow::~MainWindow()
@@ -162,6 +160,8 @@ void MainWindow::on_addCity_clicked()
 
 void MainWindow::on_fillMapButton_clicked()
 {
+    MapIoNrw* mapioNrw = new MapIoNrw();
+    mapio = mapioNrw;
     mapio->fillMap(map);
     map.draw(scene);
 }
@@ -186,7 +186,7 @@ void MainWindow::on_testDijkstraButton_clicked()
 
 void MainWindow::on_dijkstraButton_clicked()
 {
-    WayFinder wayFinder;
+    WayFinder wayFinder(this, map.getCityList().toList());
     int retcode = wayFinder.exec();
     QVector<Street*> streets = wayFinder.search(map, scene);
 }
@@ -195,7 +195,7 @@ void MainWindow::on_dijkstraButton_clicked()
 void MainWindow::on_addStreetButton_clicked()
 {
     if(map.getCityList().isEmpty()) return;
-    InputStreet inputStreet(nullptr, map.getCityList().toList());
+    InputStreet inputStreet(this, map.getCityList().toList());
     int retcode = inputStreet.exec();
     if(!retcode){
         qDebug() << "Error: Could not Build City from Dialogbox in MainWindow";

@@ -1,0 +1,40 @@
+//============================================================================
+// Name        : Versuch01Teil1.cpp
+// Author      : Philip Rexroth
+// Version     :
+// Copyright   : @2024 Philip Rexroth
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <string>
+
+int main() {
+
+	int iErste;
+	int iZweite;
+	int iSumme;
+	int iQuotient;
+	double dSumme;
+	double dQuotient;
+	double dSummeCast;
+	double dQuotientCast;
+
+
+	std::cout << "Bitte Erste Zahl eingeben." << std::endl;
+	std::cin >> iErste;
+	std::cout << "Bitte Zweite Zahl eingeben." << std::endl;
+	std::cin >> iZweite;
+
+	iSumme = iErste + iZweite;
+	iQuotient= iErste / iZweite;
+	dSumme = iErste + iZweite;
+	dQuotient = iErste / iZweite;
+	dSummeCast = (double) iErste + (double) iZweite;
+	dQuotientCast = (double) iErste / (double) iZweite;
+
+	std::cout << "Die Summe von " << iErste << " und " << iZweite << " lautet (int) " << iSumme << " oder (double) " << dSumme << " oder (double mit Type Cast) " << dSummeCast << std::endl;
+	std::cout << "Der Quotient von " << iErste << " durch " << iZweite << " lautet (int) " << iQuotient << " oder (double) " << dQuotient << " oder (double mit Type Cast) " << dQuotientCast << std::endl;
+
+	return 0;
+}

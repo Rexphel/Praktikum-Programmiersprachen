@@ -1,0 +1,400 @@
+18:57:58 **** Incremental Build of configuration Debug for project Versuch08 ****
+make all 
+Building file: ../src/Buch.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Buch.d" -MT"src/Buch.o" -o "src/Buch.o" "../src/Buch.cpp"
+Finished building: ../src/Buch.cpp
+ 
+Building file: ../src/Buecherei.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Buecherei.d" -MT"src/Buecherei.o" -o "src/Buecherei.o" "../src/Buecherei.cpp"
+Finished building: ../src/Buecherei.cpp
+ 
+Building file: ../src/DVD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DVD.d" -MT"src/DVD.o" -o "src/DVD.o" "../src/DVD.cpp"
+Finished building: ../src/DVD.cpp
+ 
+Building file: ../src/Datum.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Datum.d" -MT"src/Datum.o" -o "src/Datum.o" "../src/Datum.cpp"
+Finished building: ../src/Datum.cpp
+ 
+Building file: ../src/Magazin.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Magazin.d" -MT"src/Magazin.o" -o "src/Magazin.o" "../src/Magazin.cpp"
+Finished building: ../src/Magazin.cpp
+ 
+Building file: ../src/Medium.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Medium.d" -MT"src/Medium.o" -o "src/Medium.o" "../src/Medium.cpp"
+Finished building: ../src/Medium.cpp
+ 
+Building file: ../src/Person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Person.d" -MT"src/Person.o" -o "src/Person.o" "../src/Person.cpp"
+Finished building: ../src/Person.cpp
+ 
+Building target: Versuch08
+Invoking: GCC C++ Linker
+g++  -o "Versuch08" ./src/Buch.o ./src/Buecherei.o ./src/DVD.o ./src/Datum.o ./src/Magazin.o ./src/Medium.o ./src/Person.o   
+Finished building target: Versuch08
+ 
+18:58:02 **** Incremental Build of configuration Debug for project Versuch08 ****
+make all 
+make: Nothing to be done for 'all'.
+18:58:50 **** Incremental Build of configuration Debug for project Versuch08 ****
+make all 
+Building file: ../src/Buch.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Buch.d" -MT"src/Buch.o" -o "src/Buch.o" "../src/Buch.cpp"
+Finished building: ../src/Buch.cpp
+ 
+Building file: ../src/Buecherei.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Buecherei.d" -MT"src/Buecherei.o" -o "src/Buecherei.o" "../src/Buecherei.cpp"
+Finished building: ../src/Buecherei.cpp
+ 
+Building file: ../src/DVD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DVD.d" -MT"src/DVD.o" -o "src/DVD.o" "../src/DVD.cpp"
+Finished building: ../src/DVD.cpp
+ 
+Building file: ../src/Magazin.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Magazin.d" -MT"src/Magazin.o" -o "src/Magazin.o" "../src/Magazin.cpp"
+Finished building: ../src/Magazin.cpp
+ 
+Building file: ../src/Medium.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Medium.d" -MT"src/Medium.o" -o "src/Medium.o" "../src/Medium.cpp"
+Finished building: ../src/Medium.cpp
+ 
+Building target: Versuch08
+Invoking: GCC C++ Linker
+g++  -o "Versuch08" ./src/Buch.o ./src/Buecherei.o ./src/DVD.o ./src/Datum.o ./src/Magazin.o ./src/Medium.o ./src/Person.o   
+Finished building target: Versuch08
+ 
+19:03:54 **** Incremental Build of configuration Debug for project Versuch08 ****
+make all 
+Building file: ../src/Buch.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Buch.d" -MT"src/Buch.o" -o "src/Buch.o" "../src/Buch.cpp"
+Finished building: ../src/Buch.cpp
+ 
+Building file: ../src/Buecherei.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Buecherei.d" -MT"src/Buecherei.o" -o "src/Buecherei.o" "../src/Buecherei.cpp"
+Finished building: ../src/Buecherei.cpp
+ 
+Building file: ../src/DVD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DVD.d" -MT"src/DVD.o" -o "src/DVD.o" "../src/DVD.cpp"
+Finished building: ../src/DVD.cpp
+ 
+Building file: ../src/Magazin.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Magazin.d" -MT"src/Magazin.o" -o "src/Magazin.o" "../src/Magazin.cpp"
+Finished building: ../src/Magazin.cpp
+ 
+Building file: ../src/Medium.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Medium.d" -MT"src/Medium.o" -o "src/Medium.o" "../src/Medium.cpp"
+../src/Medium.cpp:42:1: error: ‘virtual’ outside class declaration
+   42 | virtual bool Medium::ausleihen(Person person,Datum ausleihdatum)
+      | ^~~~~~~
+make: *** [src/subdir.mk:38: src/Medium.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:04:03 **** Incremental Build of configuration Debug for project Versuch08 ****
+make all 
+Building file: ../src/Medium.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Medium.d" -MT"src/Medium.o" -o "src/Medium.o" "../src/Medium.cpp"
+Finished building: ../src/Medium.cpp
+ 
+Building target: Versuch08
+Invoking: GCC C++ Linker
+g++  -o "Versuch08" ./src/Buch.o ./src/Buecherei.o ./src/DVD.o ./src/Datum.o ./src/Magazin.o ./src/Medium.o ./src/Person.o   
+Finished building target: Versuch08
+ 
+19:28:08 **** Incremental Build of configuration Debug for project Versuch08 ****
+make all 
+Building file: ../src/Buecherei.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Buecherei.d" -MT"src/Buecherei.o" -o "src/Buecherei.o" "../src/Buecherei.cpp"
+Finished building: ../src/Buecherei.cpp
+ 
+Building file: ../src/DVD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DVD.d" -MT"src/DVD.o" -o "src/DVD.o" "../src/DVD.cpp"
+Finished building: ../src/DVD.cpp
+ 
+Building file: ../src/Magazin.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Magazin.d" -MT"src/Magazin.o" -o "src/Magazin.o" "../src/Magazin.cpp"
+Finished building: ../src/Magazin.cpp
+ 
+Building target: Versuch08
+Invoking: GCC C++ Linker
+g++  -o "Versuch08" ./src/Buch.o ./src/Buecherei.o ./src/DVD.o ./src/Datum.o ./src/Magazin.o ./src/Medium.o ./src/Person.o   
+Finished building target: Versuch08
+ 
+19:31:10 **** Incremental Build of configuration Debug for project Versuch08 ****
+make all 
+Building file: ../src/DVD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DVD.d" -MT"src/DVD.o" -o "src/DVD.o" "../src/DVD.cpp"
+Finished building: ../src/DVD.cpp
+ 
+Building file: ../src/Magazin.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Magazin.d" -MT"src/Magazin.o" -o "src/Magazin.o" "../src/Magazin.cpp"
+Finished building: ../src/Magazin.cpp
+ 
+Building target: Versuch08
+Invoking: GCC C++ Linker
+g++  -o "Versuch08" ./src/Buch.o ./src/Buecherei.o ./src/DVD.o ./src/Datum.o ./src/Magazin.o ./src/Medium.o ./src/Person.o   
+Finished building target: Versuch08
+ 
+19:32:33 **** Incremental Build of configuration Debug for project Versuch08 ****
+make all 
+make: Nothing to be done for 'all'.
+19:34:19 **** Incremental Build of configuration Debug for project Versuch08 ****
+make all 
+Building file: ../src/DVD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DVD.d" -MT"src/DVD.o" -o "src/DVD.o" "../src/DVD.cpp"
+Finished building: ../src/DVD.cpp
+ 
+Building target: Versuch08
+Invoking: GCC C++ Linker
+g++  -o "Versuch08" ./src/Buch.o ./src/Buecherei.o ./src/DVD.o ./src/Datum.o ./src/Magazin.o ./src/Medium.o ./src/Person.o   
+Finished building target: Versuch08
+ 
+19:36:32 **** Incremental Build of configuration Debug for project Versuch08 ****
+make all 
+Building file: ../src/Buch.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Buch.d" -MT"src/Buch.o" -o "src/Buch.o" "../src/Buch.cpp"
+Finished building: ../src/Buch.cpp
+ 
+Building file: ../src/Buecherei.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Buecherei.d" -MT"src/Buecherei.o" -o "src/Buecherei.o" "../src/Buecherei.cpp"
+../src/Buecherei.cpp: In function ‘void fuelleDatenbank(std::vector<Medium*>&)’:
+../src/Buecherei.cpp:166:71: error: invalid new-expression of abstract class type ‘Buch’
+  166 |         Medium* neuesMedium = new Buch("Das Parfum", "Patrick Suskind");
+      |                                                                       ^
+In file included from ../src/Buecherei.cpp:31:
+../src/Buch.h:21:7: note:   because the following virtual functions are pure within ‘Buch’:
+   21 | class Buch : public Medium
+      |       ^~~~
+In file included from ../src/Buecherei.cpp:25:
+../src/Medium.h:52:18: note:     ‘virtual bool Medium::ausleihen(Person, Datum)’
+   52 |     virtual bool ausleihen(Person person, Datum ausleihdatum)=0;
+      |                  ^~~~~~~~~
+../src/Buecherei.cpp:169:88: error: invalid new-expression of abstract class type ‘Buch’
+  169 |         neuesMedium = new Buch("Harry Potter und der Stein der Weisen", "J. K. Rowling");
+      |                                                                                        ^
+../src/Buecherei.cpp:172:58: error: invalid new-expression of abstract class type ‘Buch’
+  172 |         neuesMedium = new Buch("Tom Sawyer", "Mark Twain");
+      |                                                          ^
+../src/Buecherei.cpp:181:64: error: invalid new-expression of abstract class type ‘Buch’
+  181 |         neuesMedium = new Buch("Huckleberry Finn", "Mark Twain");
+      |                                                                ^
+../src/Buecherei.cpp: In function ‘void mediumHinzufuegen(std::vector<Medium*>&)’:
+../src/Buecherei.cpp:233:59: error: invalid new-expression of abstract class type ‘Buch’
+  233 |                 Medium* neuesMedium = new Buch(titel,autor);
+      |                                                           ^
+make: *** [src/subdir.mk:38: src/Buecherei.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:37:56 **** Incremental Build of configuration Debug for project Versuch08 ****
+make all 
+Building file: ../src/Buch.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Buch.d" -MT"src/Buch.o" -o "src/Buch.o" "../src/Buch.cpp"
+Finished building: ../src/Buch.cpp
+ 
+Building file: ../src/Buecherei.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Buecherei.d" -MT"src/Buecherei.o" -o "src/Buecherei.o" "../src/Buecherei.cpp"
+Finished building: ../src/Buecherei.cpp
+ 
+Building file: ../src/DVD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DVD.d" -MT"src/DVD.o" -o "src/DVD.o" "../src/DVD.cpp"
+Finished building: ../src/DVD.cpp
+ 
+Building file: ../src/Magazin.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Magazin.d" -MT"src/Magazin.o" -o "src/Magazin.o" "../src/Magazin.cpp"
+Finished building: ../src/Magazin.cpp
+ 
+Building file: ../src/Medium.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Medium.d" -MT"src/Medium.o" -o "src/Medium.o" "../src/Medium.cpp"
+Finished building: ../src/Medium.cpp
+ 
+Building target: Versuch08
+Invoking: GCC C++ Linker
+g++  -o "Versuch08" ./src/Buch.o ./src/Buecherei.o ./src/DVD.o ./src/Datum.o ./src/Magazin.o ./src/Medium.o ./src/Person.o   
+Finished building target: Versuch08
+ 
+19:38:37 **** Incremental Build of configuration Debug for project Versuch08 ****
+make all 
+Building file: ../src/Buch.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Buch.d" -MT"src/Buch.o" -o "src/Buch.o" "../src/Buch.cpp"
+Finished building: ../src/Buch.cpp
+ 
+Building file: ../src/Buecherei.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Buecherei.d" -MT"src/Buecherei.o" -o "src/Buecherei.o" "../src/Buecherei.cpp"
+Finished building: ../src/Buecherei.cpp
+ 
+Building file: ../src/DVD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DVD.d" -MT"src/DVD.o" -o "src/DVD.o" "../src/DVD.cpp"
+Finished building: ../src/DVD.cpp
+ 
+Building file: ../src/Magazin.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Magazin.d" -MT"src/Magazin.o" -o "src/Magazin.o" "../src/Magazin.cpp"
+Finished building: ../src/Magazin.cpp
+ 
+Building target: Versuch08
+Invoking: GCC C++ Linker
+g++  -o "Versuch08" ./src/Buch.o ./src/Buecherei.o ./src/DVD.o ./src/Datum.o ./src/Magazin.o ./src/Medium.o ./src/Person.o   
+Finished building target: Versuch08
+ 
+19:39:31 **** Incremental Build of configuration Debug for project Versuch08 ****
+make all 
+Building file: ../src/Buecherei.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Buecherei.d" -MT"src/Buecherei.o" -o "src/Buecherei.o" "../src/Buecherei.cpp"
+../src/Buecherei.cpp: In function ‘void fuelleDatenbank(std::vector<Medium*>&)’:
+../src/Buecherei.cpp:187:54: error: invalid new-expression of abstract class type ‘Medium’
+  187 |         Medium* neuesMedium = new Medium("Das Parfum");
+      |                                                      ^
+In file included from ../src/Buecherei.cpp:25:
+../src/Medium.h:19:7: note:   because the following virtual functions are pure within ‘Medium’:
+   19 | class Medium
+      |       ^~~~~~
+../src/Medium.h:41:18: note:     ‘virtual void Medium::ausgabe() const’
+   41 |     virtual void ausgabe() const=0;
+      |                  ^~~~~~~
+../src/Buecherei.cpp:190:73: error: invalid new-expression of abstract class type ‘Medium’
+  190 |         neuesMedium = new Medium("Harry Potter und der Stein der Weisen");
+      |                                                                         ^
+../src/Buecherei.cpp:193:46: error: invalid new-expression of abstract class type ‘Medium’
+  193 |         neuesMedium = new Medium("Tom Sawyer");
+      |                                              ^
+../src/Buecherei.cpp: In function ‘void mediumHinzufuegen(std::vector<Medium*>&)’:
+../src/Buecherei.cpp:301:47: error: invalid new-expression of abstract class type ‘Medium’
+  301 |         Medium* neuesMedium = new Medium(titel);
+      |                                               ^
+make: *** [src/subdir.mk:38: src/Buecherei.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:39:40 **** Incremental Build of configuration Debug for project Versuch08 ****
+make all 
+Building file: ../src/Buecherei.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Buecherei.d" -MT"src/Buecherei.o" -o "src/Buecherei.o" "../src/Buecherei.cpp"
+Finished building: ../src/Buecherei.cpp
+ 
+Building target: Versuch08
+Invoking: GCC C++ Linker
+g++  -o "Versuch08" ./src/Buch.o ./src/Buecherei.o ./src/DVD.o ./src/Datum.o ./src/Magazin.o ./src/Medium.o ./src/Person.o   
+Finished building target: Versuch08
+ 
+19:51:06 **** Incremental Build of configuration Debug for project Versuch08 ****
+make all 
+Building file: ../src/Buch.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Buch.d" -MT"src/Buch.o" -o "src/Buch.o" "../src/Buch.cpp"
+Finished building: ../src/Buch.cpp
+ 
+Building file: ../src/Buecherei.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Buecherei.d" -MT"src/Buecherei.o" -o "src/Buecherei.o" "../src/Buecherei.cpp"
+../src/Buecherei.cpp: In function ‘void ausgeliheneMedienAusgeben(std::vector<Medium*>&)’:
+../src/Buecherei.cpp:442:28: error: ‘bool Medium::status’ is protected within this context
+  442 |         if(!medien[index]->status){
+      |                            ^~~~~~
+In file included from ../src/Buecherei.cpp:25:
+../src/Medium.h:92:10: note: declared protected here
+   92 |     bool status;
+      |          ^~~~~~
+make: *** [src/subdir.mk:38: src/Buecherei.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+19:52:36 **** Incremental Build of configuration Debug for project Versuch08 ****
+make all 
+Building file: ../src/Buch.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Buch.d" -MT"src/Buch.o" -o "src/Buch.o" "../src/Buch.cpp"
+Finished building: ../src/Buch.cpp
+ 
+Building file: ../src/Buecherei.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Buecherei.d" -MT"src/Buecherei.o" -o "src/Buecherei.o" "../src/Buecherei.cpp"
+Finished building: ../src/Buecherei.cpp
+ 
+Building file: ../src/DVD.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DVD.d" -MT"src/DVD.o" -o "src/DVD.o" "../src/DVD.cpp"
+Finished building: ../src/DVD.cpp
+ 
+Building file: ../src/Magazin.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Magazin.d" -MT"src/Magazin.o" -o "src/Magazin.o" "../src/Magazin.cpp"
+Finished building: ../src/Magazin.cpp
+ 
+Building file: ../src/Medium.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Medium.d" -MT"src/Medium.o" -o "src/Medium.o" "../src/Medium.cpp"
+Finished building: ../src/Medium.cpp
+ 
+Building target: Versuch08
+Invoking: GCC C++ Linker
+g++  -o "Versuch08" ./src/Buch.o ./src/Buecherei.o ./src/DVD.o ./src/Datum.o ./src/Magazin.o ./src/Medium.o ./src/Person.o   
+Finished building target: Versuch08
+ 
+19:52:57 **** Incremental Build of configuration Debug for project Versuch08 ****
+make all 
+Building file: ../src/Buecherei.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Buecherei.d" -MT"src/Buecherei.o" -o "src/Buecherei.o" "../src/Buecherei.cpp"
+Finished building: ../src/Buecherei.cpp
+ 
+Building target: Versuch08
+Invoking: GCC C++ Linker
+g++  -o "Versuch08" ./src/Buch.o ./src/Buecherei.o ./src/DVD.o ./src/Datum.o ./src/Magazin.o ./src/Medium.o ./src/Person.o   
+Finished building target: Versuch08
+ 
+20:00:29 **** Incremental Build of configuration Debug for project Versuch08 ****
+make all 
+Building file: ../src/Buecherei.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Buecherei.d" -MT"src/Buecherei.o" -o "src/Buecherei.o" "../src/Buecherei.cpp"
+Finished building: ../src/Buecherei.cpp
+ 
+Building target: Versuch08
+Invoking: GCC C++ Linker
+g++  -o "Versuch08" ./src/Buch.o ./src/Buecherei.o ./src/DVD.o ./src/Datum.o ./src/Magazin.o ./src/Medium.o ./src/Person.o   
+Finished building target: Versuch08
+ 
+20:00:32 **** Incremental Build of configuration Debug for project Versuch08 ****
+make all 
+make: Nothing to be done for 'all'.
+20:01:29 **** Incremental Build of configuration Debug for project Versuch08 ****
+make all 
+Building file: ../src/Buecherei.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Buecherei.d" -MT"src/Buecherei.o" -o "src/Buecherei.o" "../src/Buecherei.cpp"
+Finished building: ../src/Buecherei.cpp
+ 
+Building target: Versuch08
+Invoking: GCC C++ Linker
+g++  -o "Versuch08" ./src/Buch.o ./src/Buecherei.o ./src/DVD.o ./src/Datum.o ./src/Magazin.o ./src/Medium.o ./src/Person.o   
+Finished building target: Versuch08
+ 

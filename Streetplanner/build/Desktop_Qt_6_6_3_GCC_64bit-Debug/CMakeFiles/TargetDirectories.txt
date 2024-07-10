@@ -1,0 +1,9 @@
+/home/Rexphel/Praktikum-SoSe/Streetplanner/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/CMakeFiles/Streetplanner.dir
+/home/Rexphel/Praktikum-SoSe/Streetplanner/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
+/home/Rexphel/Praktikum-SoSe/Streetplanner/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
+/home/Rexphel/Praktikum-SoSe/Streetplanner/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/CMakeFiles/list_install_components.dir
+/home/Rexphel/Praktikum-SoSe/Streetplanner/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/CMakeFiles/install.dir
+/home/Rexphel/Praktikum-SoSe/Streetplanner/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/CMakeFiles/install/local.dir
+/home/Rexphel/Praktikum-SoSe/Streetplanner/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/CMakeFiles/install/strip.dir
+/home/Rexphel/Praktikum-SoSe/Streetplanner/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/CMakeFiles/Streetplanner_autogen_timestamp_deps.dir
+/home/Rexphel/Praktikum-SoSe/Streetplanner/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/CMakeFiles/Streetplanner_autogen.dir

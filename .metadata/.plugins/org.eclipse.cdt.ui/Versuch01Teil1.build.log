@@ -1,0 +1,19 @@
+21:15:59 **** Incremental Build of configuration Debug for project Versuch01Teil1 ****
+make all 
+Building file: ../src/Versuch01Teil1.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Versuch01Teil1.d" -MT"src/Versuch01Teil1.o" -o "src/Versuch01Teil1.o" "../src/Versuch01Teil1.cpp"
+../src/Versuch01Teil1.cpp: In function ‘void Aufgaben4bis7()’:
+../src/Versuch01Teil1.cpp:83:21: warning: unused variable ‘iFeld’ [-Wunused-variable]
+   83 |                 int iFeld[2] = {1,2};
+      |                     ^~~~~
+Finished building: ../src/Versuch01Teil1.cpp
+ 
+Building target: Versuch01Teil1
+Invoking: GCC C++ Linker
+g++  -o "Versuch01Teil1" ./src/Versuch01Teil1.o   
+Finished building target: Versuch01Teil1
+ 
+
+21:15:59 Build Finished. 0 errors, 1 warnings. (took 370ms)
+

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-ec0729855cff9e7ad5bd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Streetplanner",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Streetplanner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Streetplanner-Debug-9be2e885fc5c29862a83.json",
+					"name" : "Streetplanner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Streetplanner_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Streetplanner_autogen-Debug-42ff47ed0acb5b81b52b.json",
+					"name" : "Streetplanner_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Streetplanner_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Streetplanner_autogen_timestamp_deps-Debug-bb9346bd8ccb18437bf4.json",
+					"name" : "Streetplanner_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/Rexphel/Praktikum-SoSe/Streetplanner/build/Desktop_Qt_6_6_3_GCC_64bit-Debug",
+		"source" : "/home/Rexphel/Praktikum-SoSe/Streetplanner"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

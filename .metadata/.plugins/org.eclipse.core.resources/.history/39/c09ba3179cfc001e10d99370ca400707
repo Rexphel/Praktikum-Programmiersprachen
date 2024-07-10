@@ -1,0 +1,31 @@
+//============================================================================
+// Name        : Versuch01Teil1.cpp
+// Author      : Philip Rexroth
+// Version     :
+// Copyright   : @2024 Philip Rexroth
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <string>
+
+int main() {
+
+	int iErste;
+	int iZweite;
+	int iSumme;
+	int iQuotient;
+
+	std::cout << "Bitte Erste Zahl eingeben.";
+	std::cin >> iErste;
+	std::cout << "Bitte Zweite Zahl eingeben.";
+	std::cin >> iZweite;
+
+	iSumme = iErste + iZweite;
+	iQuotient= iErste / iZweite;
+
+	std::cout << "Die Summe von %d und %d lautet %d", iErste, iZweite, iSumme;
+	std::cout << "Der Quotient von %d durch %d lautet %d", iErste, iZweite, iQuotient;
+
+	return 0;
+}

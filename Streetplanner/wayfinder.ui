@@ -26,9 +26,6 @@
        </property>
       </widget>
      </item>
-     <item row="1" column="1">
-      <widget class="QLineEdit" name="startLineEdit"/>
-     </item>
      <item row="2" column="0">
       <widget class="QLabel" name="destinationLabel">
        <property name="text">
@@ -45,9 +42,6 @@
         <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
        </property>
       </widget>
-     </item>
-     <item row="2" column="1">
-      <widget class="QLineEdit" name="destinationLineEdit"/>
      </item>
      <item row="3" column="1">
       <spacer name="verticalSpacer">
@@ -75,14 +69,16 @@
        </property>
       </spacer>
      </item>
+     <item row="1" column="1">
+      <widget class="QComboBox" name="startBox"/>
+     </item>
+     <item row="2" column="1">
+      <widget class="QComboBox" name="destinationBox"/>
+     </item>
     </layout>
    </item>
   </layout>
  </widget>
- <tabstops>
-  <tabstop>startLineEdit</tabstop>
-  <tabstop>destinationLineEdit</tabstop>
- </tabstops>
  <resources/>
  <connections>
   <connection>

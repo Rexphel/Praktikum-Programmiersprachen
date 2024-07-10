@@ -1,0 +1,15 @@
+02:14:06 **** Incremental Build of configuration Debug for project Versuch03 ****
+make all 
+Building file: ../src/reversi.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/reversi.d" -MT"src/reversi.o" -o "src/reversi.o" "../src/reversi.cpp"
+Finished building: ../src/reversi.cpp
+ 
+Building target: Versuch03
+Invoking: GCC C++ Linker
+g++  -o "Versuch03" ./src/reversi.o ./src/reversiKI.o ./src/test.o   
+Finished building target: Versuch03
+ 
+
+02:14:07 Build Finished. 0 errors, 0 warnings. (took 426ms)
+
